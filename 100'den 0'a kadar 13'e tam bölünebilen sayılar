@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	
+	for(int i = 100;i>0;i--)
+	{
+		if(i%13==0)
+		{
+			printf("%d \n",i);
+		}
+		
+	}
+}
