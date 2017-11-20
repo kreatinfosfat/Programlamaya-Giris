@@ -1,0 +1,21 @@
+#include<conio.h>
+
+int main()
+{
+	int i,j,n;
+	printf("kare matris degeri giriniz\n");
+	scanf("%d",&n);
+    int matris[n][n];
+    
+    
+    for(i=1; i<=n; i++)
+    {
+        for(j=1; j<=n; j++)
+        {
+            matris[i][j] = 0;
+            matris[1][1] = 1;
+            printf("%d ",matris[i][j]);
+        }
+        printf("\n");
+    }
+}
